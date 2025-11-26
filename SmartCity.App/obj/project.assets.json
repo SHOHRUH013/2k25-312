@@ -1,0 +1,183 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "SmartCity.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SmartCity.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmartCity.Core.dll": {}
+        }
+      },
+      "SmartCity.Modules.Energy/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SmartCity.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SmartCity.Modules.Energy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmartCity.Modules.Energy.dll": {}
+        }
+      },
+      "SmartCity.Modules.Lighting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SmartCity.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SmartCity.Modules.Lighting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmartCity.Modules.Lighting.dll": {}
+        }
+      },
+      "SmartCity.Modules.Security/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SmartCity.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SmartCity.Modules.Security.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmartCity.Modules.Security.dll": {}
+        }
+      },
+      "SmartCity.Modules.Transport/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SmartCity.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SmartCity.Modules.Transport.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmartCity.Modules.Transport.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SmartCity.Core/1.0.0": {
+      "type": "project",
+      "path": "../SmartCity.Core/SmartCity.Core.csproj",
+      "msbuildProject": "../SmartCity.Core/SmartCity.Core.csproj"
+    },
+    "SmartCity.Modules.Energy/1.0.0": {
+      "type": "project",
+      "path": "../SmartCity.Modules.Energy/SmartCity.Modules.Energy.csproj",
+      "msbuildProject": "../SmartCity.Modules.Energy/SmartCity.Modules.Energy.csproj"
+    },
+    "SmartCity.Modules.Lighting/1.0.0": {
+      "type": "project",
+      "path": "../SmartCity.Modules.Lighting/SmartCity.Modules.Lighting.csproj",
+      "msbuildProject": "../SmartCity.Modules.Lighting/SmartCity.Modules.Lighting.csproj"
+    },
+    "SmartCity.Modules.Security/1.0.0": {
+      "type": "project",
+      "path": "../SmartCity.Modules.Security/SmartCity.Modules.Security.csproj",
+      "msbuildProject": "../SmartCity.Modules.Security/SmartCity.Modules.Security.csproj"
+    },
+    "SmartCity.Modules.Transport/1.0.0": {
+      "type": "project",
+      "path": "../SmartCity.Modules.Transport/SmartCity.Modules.Transport.csproj",
+      "msbuildProject": "../SmartCity.Modules.Transport/SmartCity.Modules.Transport.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "SmartCity.Core >= 1.0.0",
+      "SmartCity.Modules.Energy >= 1.0.0",
+      "SmartCity.Modules.Lighting >= 1.0.0",
+      "SmartCity.Modules.Security >= 1.0.0",
+      "SmartCity.Modules.Transport >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/rejapov/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.App/SmartCity.App.csproj",
+      "projectName": "SmartCity.App",
+      "projectPath": "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.App/SmartCity.App.csproj",
+      "packagesPath": "/home/rejapov/.nuget/packages/",
+      "outputPath": "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.App/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/rejapov/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Core/SmartCity.Core.csproj": {
+              "projectPath": "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Core/SmartCity.Core.csproj"
+            },
+            "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Modules.Energy/SmartCity.Modules.Energy.csproj": {
+              "projectPath": "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Modules.Energy/SmartCity.Modules.Energy.csproj"
+            },
+            "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Modules.Lighting/SmartCity.Modules.Lighting.csproj": {
+              "projectPath": "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Modules.Lighting/SmartCity.Modules.Lighting.csproj"
+            },
+            "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Modules.Security/SmartCity.Modules.Security.csproj": {
+              "projectPath": "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Modules.Security/SmartCity.Modules.Security.csproj"
+            },
+            "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Modules.Transport/SmartCity.Modules.Transport.csproj": {
+              "projectPath": "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Modules.Transport/SmartCity.Modules.Transport.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

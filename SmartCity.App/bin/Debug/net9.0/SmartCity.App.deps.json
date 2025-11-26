@@ -1,0 +1,107 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SmartCity.App/1.0.0": {
+        "dependencies": {
+          "SmartCity.Core": "1.0.0",
+          "SmartCity.Modules.Energy": "1.0.0",
+          "SmartCity.Modules.Lighting": "1.0.0",
+          "SmartCity.Modules.Security": "1.0.0",
+          "SmartCity.Modules.Transport": "1.0.0"
+        },
+        "runtime": {
+          "SmartCity.App.dll": {}
+        }
+      },
+      "SmartCity.Core/1.0.0": {
+        "runtime": {
+          "SmartCity.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SmartCity.Modules.Energy/1.0.0": {
+        "dependencies": {
+          "SmartCity.Core": "1.0.0"
+        },
+        "runtime": {
+          "SmartCity.Modules.Energy.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SmartCity.Modules.Lighting/1.0.0": {
+        "dependencies": {
+          "SmartCity.Core": "1.0.0"
+        },
+        "runtime": {
+          "SmartCity.Modules.Lighting.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SmartCity.Modules.Security/1.0.0": {
+        "dependencies": {
+          "SmartCity.Core": "1.0.0"
+        },
+        "runtime": {
+          "SmartCity.Modules.Security.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SmartCity.Modules.Transport/1.0.0": {
+        "dependencies": {
+          "SmartCity.Core": "1.0.0"
+        },
+        "runtime": {
+          "SmartCity.Modules.Transport.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SmartCity.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SmartCity.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SmartCity.Modules.Energy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SmartCity.Modules.Lighting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SmartCity.Modules.Security/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SmartCity.Modules.Transport/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
