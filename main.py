@@ -1,7 +1,4 @@
-"""
-SmartCity System - Main Entry Point
-Utilizes multiple design patterns for intelligent city management
-"""
+
 
 from core.controller import SmartCityController
 from modules.transport.transport_system import TrafficLight, PublicTransport

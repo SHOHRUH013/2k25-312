@@ -1,17 +1,4 @@
-"""
-Core Controller Module
-Design Patterns:
-1. Singleton - Ensures only one instance of SmartCityController exists
-2. Facade - Provides simplified interface to complex subsystems
-"""
-
-
 class SingletonMeta(type):
-    """
-    SINGLETON PATTERN (Creational)
-    Purpose: Ensure only one instance of a class exists
-    Usage: Metaclass for creating singleton classes
-    """
     _instances = {}
 
     def __call__(cls, *args, **kwargs):
@@ -21,17 +8,7 @@ class SingletonMeta(type):
 
 
 class SmartCityController(metaclass=SingletonMeta):
-    """
-    FACADE PATTERN (Structural)
-    Purpose: Provides unified interface to all city subsystems
-    Usage: Central controller that simplifies access to complex subsystems
-
-    SINGLETON PATTERN
-    Purpose: Ensures only one controller instance manages the entire city
-    """
-
     def __init__(self):
-        """Initialize controller if first instance"""
         if not hasattr(self, '_initialized'):
             self._devices = []
             self._subsystems = {
@@ -44,10 +21,6 @@ class SmartCityController(metaclass=SingletonMeta):
             print("🏗️ SmartCity Controller initialized (Singleton)")
 
     def create_device(self, device_type, location):
-        """
-        FACADE METHOD
-        Simplifies device creation by hiding factory complexity
-        """
         from core.factories.device_factory import DeviceFactory
 
         device = DeviceFactory.create_device(device_type, location)
@@ -66,10 +39,7 @@ class SmartCityController(metaclass=SingletonMeta):
         return device
 
     def get_system_status(self):
-        """
-        FACADE METHOD
-        Provides simple way to check all subsystems status
-        """
+
         print("\n📍 Active Devices:")
 
         for subsystem, devices in self._subsystems.items():
@@ -81,10 +51,7 @@ class SmartCityController(metaclass=SingletonMeta):
         print(f"\n📊 Total devices: {len(self._devices)}")
 
     def generate_report(self):
-        """
-        FACADE METHOD
-        Generates comprehensive system report
-        """
+
         print("\n🏙️ SmartCity System Report")
         print(f"Total Devices: {len(self._devices)}")
         print(f"\nSubsystem Breakdown:")

@@ -1,8 +1,3 @@
-"""
-SmartCity System Tests
-Tests all design patterns and system functionality
-"""
-
 from core.controller import SmartCityController
 from core.factories.device_factory import DeviceFactory, AbstractDeviceFactory
 from modules.lighting.lighting_system import StreetLight, MotionSensorDecorator, DimmingDecorator
@@ -11,7 +6,6 @@ from modules.energy.energy_system import EnergyStationBuilder, EnergyStationDire
 
 
 def test_singleton_pattern():
-    """Test Singleton Pattern - Only one controller instance"""
     print("\n" + "=" * 60)
     print("TEST 1: SINGLETON PATTERN")
     print("=" * 60)
@@ -28,7 +22,6 @@ def test_singleton_pattern():
 
 
 def test_factory_pattern():
-    """Test Factory Pattern - Device creation"""
     print("\n" + "=" * 60)
     print("TEST 2: FACTORY PATTERN")
     print("=" * 60)
@@ -46,7 +39,6 @@ def test_factory_pattern():
 
 
 def test_abstract_factory_pattern():
-    """Test Abstract Factory Pattern - Create subsystem sets"""
     print("\n" + "=" * 60)
     print("TEST 3: ABSTRACT FACTORY PATTERN")
     print("=" * 60)
@@ -67,7 +59,6 @@ def test_abstract_factory_pattern():
 
 
 def test_decorator_pattern():
-    """Test Decorator Pattern - Adding features to street lights"""
     print("\n" + "=" * 60)
     print("TEST 4: DECORATOR PATTERN")
     print("=" * 60)
@@ -90,7 +81,6 @@ def test_decorator_pattern():
 
 
 def test_proxy_pattern():
-    """Test Proxy Pattern - Access control for cameras"""
     print("\n" + "=" * 60)
     print("TEST 5: PROXY PATTERN")
     print("=" * 60)
@@ -116,7 +106,6 @@ def test_proxy_pattern():
 
 
 def test_builder_pattern():
-    """Test Builder Pattern - Building complex energy stations"""
     print("\n" + "=" * 60)
     print("TEST 6: BUILDER PATTERN")
     print("=" * 60)
@@ -146,7 +135,6 @@ def test_builder_pattern():
 
 
 def test_facade_pattern():
-    """Test Facade Pattern - Simplified system access"""
     print("\n" + "=" * 60)
     print("TEST 7: FACADE PATTERN")
     print("=" * 60)
@@ -172,7 +160,6 @@ def test_facade_pattern():
 
 
 def run_all_tests():
-    """Run all system tests"""
     print("\n" + "=" * 60)
     print("🧪 SMARTCITY SYSTEM - DESIGN PATTERNS TEST SUITE")
     print("=" * 60)

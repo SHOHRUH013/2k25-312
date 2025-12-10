@@ -1,13 +1,4 @@
-"""
-Lighting System Module
-Design Pattern: DECORATOR (Structural)
-Purpose: Dynamically adds features to street lights (sensors, dimming, etc.)
-"""
-
-
 class Device:
-    """Base class for all smart city devices"""
-
     def __init__(self, location):
         self.location = location
         self.status = "active"
@@ -17,23 +8,16 @@ class Device:
 
 
 class StreetLight(Device):
-    """
-    Basic Street Light
-    Can be enhanced with decorators
-    """
-
     def __init__(self, location):
         super().__init__(location)
         self.is_on = False
         self.brightness = 100
 
     def turn_on(self):
-        """Turn on the light"""
         self.is_on = True
         return "Light turned ON"
 
     def turn_off(self):
-        """Turn off the light"""
         self.is_on = False
         return "Light turned OFF"
 
@@ -43,12 +27,6 @@ class StreetLight(Device):
 
 
 class LightDecorator(Device):
-    """
-    DECORATOR PATTERN (Structural)
-    Purpose: Base decorator for adding features to street lights
-    Usage: Wraps StreetLight to add new behaviors without modifying original class
-    """
-
     def __init__(self, light):
         self._light = light
         self.location = light.location
@@ -64,17 +42,11 @@ class LightDecorator(Device):
 
 
 class MotionSensorDecorator(LightDecorator):
-    """
-    DECORATOR - Adds motion sensor capability
-    Light automatically turns on when motion detected
-    """
-
     def __init__(self, light):
         super().__init__(light)
         self.motion_detected = False
 
     def detect_motion(self):
-        """Simulate motion detection"""
         self.motion_detected = True
         self._light.turn_on()
         return "Motion detected! Light activated"
@@ -85,16 +57,10 @@ class MotionSensorDecorator(LightDecorator):
 
 
 class DimmingDecorator(LightDecorator):
-    """
-    DECORATOR - Adds dimming capability
-    Allows adjusting light brightness
-    """
-
     def __init__(self, light):
         super().__init__(light)
 
     def set_brightness(self, level):
-        """Set brightness level (0-100)"""
         if 0 <= level <= 100:
             self._light.brightness = level
             return f"Brightness set to {level}%"
@@ -106,17 +72,11 @@ class DimmingDecorator(LightDecorator):
 
 
 class EnergyMonitorDecorator(LightDecorator):
-    """
-    DECORATOR - Adds energy monitoring
-    Tracks power consumption
-    """
-
     def __init__(self, light):
         super().__init__(light)
         self.power_consumption = 0.0
 
     def calculate_consumption(self):
-        """Calculate power consumption based on brightness and state"""
         if self._light.is_on:
             self.power_consumption = (self._light.brightness / 100) * 50  # 50W max
         else:
