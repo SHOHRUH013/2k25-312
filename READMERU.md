@@ -37,7 +37,7 @@ SmartCity System представляет собой консольное при
 - Bridge  
 - Composite  
 - Decorator  
-- Facade  
+- Facade
 - Flyweight  
 - Proxy  
 
