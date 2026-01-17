@@ -1,13 +1,7 @@
-# =========================
-# Python cache / compiled
-# =========================
 __pycache__/
 *.py[cod]
 *$py.class
 
-# =========================
-# Virtual environments
-# =========================
 env/
 venv/
 ENV/
@@ -15,16 +9,7 @@ ENV/
 virtualenv/
 venv.bak/
 
-# =========================
-# Environment variables
-# =========================
-.env
-.env.*
-*.env
 
-# =========================
-# IDEs & Editors
-# =========================
 .vscode/
 .idea/
 *.swp
@@ -32,23 +17,14 @@ venv.bak/
 *.swn
 *~
 
-# =========================
-# OS files
-# =========================
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# =========================
-# Logs
-# =========================
 *.log
 logs/
 log/
 
-# =========================
-# Python tools
-# =========================
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -56,40 +32,15 @@ log/
 coverage.xml
 htmlcov/
 
-# =========================
-# Build / distribution
-# =========================
 build/
 dist/
 *.egg-info/
 .eggs/
 pip-wheel-metadata/
 
-# =========================
-# Jupyter Notebook
-# =========================
 .ipynb_checkpoints/
 
-# =========================
-# Django / Flask
-# =========================
-*.sqlite3
-db.sqlite3
-instance/
-staticfiles/
-media/
 
-# =========================
-# Celery
-# =========================
-celerybeat-schedule
-celerybeat.pid
-
-# =========================
-# dotenv / secrets
-# =========================
-secrets.json
-credentials.json
 
 # =========================
 # Tests
