@@ -1,0 +1,28 @@
+{
+  "name": "smartcity-system",
+  "version": "1.0.0",
+  "description": "SmartCity System - Intelligent city management system with design patterns",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "ts-node src/main.ts"
+  },
+  "keywords": [
+    "smartcity",
+    "design-patterns",
+    "typescript",
+    "singleton",
+    "factory",
+    "adapter",
+    "proxy",
+    "builder"
+  ],
+  "author": "Foziljon Sodiq",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
