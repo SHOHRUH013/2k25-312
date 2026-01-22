@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "SmartCity.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SmartCity.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmartCity.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SmartCity.Core/1.0.0": {
+      "type": "project",
+      "path": "../SmartCity.Core/SmartCity.Core.csproj",
+      "msbuildProject": "../SmartCity.Core/SmartCity.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "SmartCity.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/rejapov/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Modules.Lighting/SmartCity.Modules.Lighting.csproj",
+      "projectName": "SmartCity.Modules.Lighting",
+      "projectPath": "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Modules.Lighting/SmartCity.Modules.Lighting.csproj",
+      "packagesPath": "/home/rejapov/.nuget/packages/",
+      "outputPath": "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Modules.Lighting/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/rejapov/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Core/SmartCity.Core.csproj": {
+              "projectPath": "/home/rejapov/projects/Rejapov_Muhmmadrasul/SmartCity.Core/SmartCity.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
