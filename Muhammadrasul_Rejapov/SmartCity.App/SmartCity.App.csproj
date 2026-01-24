@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartCity.Core\SmartCity.Core.csproj" />
+    <ProjectReference Include="..\SmartCity.Modules.Lighting\SmartCity.Modules.Lighting.csproj" />
+    <ProjectReference Include="..\SmartCity.Modules.Transport\SmartCity.Modules.Transport.csproj" />
+    <ProjectReference Include="..\SmartCity.Modules.Security\SmartCity.Modules.Security.csproj" />
+    <ProjectReference Include="..\SmartCity.Modules.Energy\SmartCity.Modules.Energy.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
