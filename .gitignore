@@ -1,3 +1,21 @@
+# Guide файл не пушим
+GUIDE.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+
+
+
 # .NET build folders
 bin/
 obj/
