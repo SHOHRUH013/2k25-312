@@ -16,4 +16,14 @@ ENV/
 
 
 
+# .NET build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# OS files
+.DS_Store
 

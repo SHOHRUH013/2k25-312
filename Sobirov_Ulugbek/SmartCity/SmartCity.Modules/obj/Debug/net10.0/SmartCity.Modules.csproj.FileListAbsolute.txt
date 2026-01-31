@@ -1,0 +1,12 @@
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Modules/bin/Debug/net10.0/SmartCity.Modules.deps.json
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Modules/bin/Debug/net10.0/SmartCity.Modules.dll
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Modules/bin/Debug/net10.0/SmartCity.Modules.pdb
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Modules/obj/Debug/net10.0/SmartCity.Modules.GeneratedMSBuildEditorConfig.editorconfig
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Modules/obj/Debug/net10.0/SmartCity.Modules.AssemblyInfoInputs.cache
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Modules/obj/Debug/net10.0/SmartCity.Modules.AssemblyInfo.cs
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Modules/obj/Debug/net10.0/SmartCity.Modules.csproj.CoreCompileInputs.cache
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Modules/obj/Debug/net10.0/SmartCity.Modules.sourcelink.json
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Modules/obj/Debug/net10.0/SmartCity.Modules.dll
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Modules/obj/Debug/net10.0/refint/SmartCity.Modules.dll
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Modules/obj/Debug/net10.0/SmartCity.Modules.pdb
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Modules/obj/Debug/net10.0/ref/SmartCity.Modules.dll

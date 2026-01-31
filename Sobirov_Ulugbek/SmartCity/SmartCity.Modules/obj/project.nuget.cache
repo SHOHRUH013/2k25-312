@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iQJuSV5vKk4=",
+  "success": true,
+  "projectFilePath": "/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Modules/SmartCity.Modules.csproj",
+  "expectedPackageFiles": [
+    "/home/unreal/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.0/microsoft.aspnetcore.app.ref.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

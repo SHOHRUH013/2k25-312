@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SmartCity.App/SmartCity.App.csproj" />
+  <Project Path="SmartCity.Core/SmartCity.Core.csproj" />
+  <Project Path="SmartCity.Modules/SmartCity.Modules.csproj" />
+  <Project Path="SmartCity.Tests/SmartCity.Tests.csproj" />
+</Solution>
