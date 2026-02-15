@@ -1,0 +1,16 @@
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/obj/Debug/net10.0/SmartCity.Core.csproj.AssemblyReference.cache
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/obj/Debug/net10.0/SmartCity.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/obj/Debug/net10.0/SmartCity.Core.AssemblyInfoInputs.cache
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/obj/Debug/net10.0/SmartCity.Core.AssemblyInfo.cs
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/obj/Debug/net10.0/SmartCity.Core.csproj.CoreCompileInputs.cache
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/obj/Debug/net10.0/SmartCity.Core.sourcelink.json
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/bin/Debug/net10.0/SmartCity.Core.deps.json
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/bin/Debug/net10.0/SmartCity.Core.dll
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/bin/Debug/net10.0/SmartCity.Core.pdb
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/bin/Debug/net10.0/SmartCity.Modules.dll
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/bin/Debug/net10.0/SmartCity.Modules.pdb
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/obj/Debug/net10.0/SmartCit.70E69FCC.Up2Date
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/obj/Debug/net10.0/SmartCity.Core.dll
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/obj/Debug/net10.0/refint/SmartCity.Core.dll
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/obj/Debug/net10.0/SmartCity.Core.pdb
+/home/unreal/Documents/C#/Midterm/2k25-312/SmartCity/SmartCity.Core/obj/Debug/net10.0/ref/SmartCity.Core.dll
